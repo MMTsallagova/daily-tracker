@@ -12,6 +12,8 @@ class Header extends React.Component {
                    src={headerBG}
                    alt="Header Image"
                />
+               {/* TODO: add icon */}
+               {/*TODO: add header of page */}
            </div>
        )
     }
