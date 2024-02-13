@@ -1,15 +1,15 @@
 .headerBGContainer{
-    min-height: 100vh;
+    max-height: 200px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: start;
     overflow: hidden; /* Обрезка всего, что выходит за границы контейнера */
     position: relative; /* Позиционирование элементов внутри контейнера */
-
 }
 
 .headerImage {
-    height: 100%;
-    width: 100%;
+    width: auto;
+    display: block;
+    margin-top: -40px;
 }
