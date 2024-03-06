@@ -1,15 +1,42 @@
-.headerBGContainer{
+.header-bg-container{
     max-height: 200px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    align-self: center;
     justify-content: start;
     overflow: hidden; /* Обрезка всего, что выходит за границы контейнера */
     position: relative; /* Позиционирование элементов внутри контейнера */
 }
 
-.headerImage {
+.header-image {
     width: auto;
     display: block;
     margin-top: -40px;
+}
+
+.icon-image
+{
+    height: 50px;
+    width: 50px;
+    display: block;
+    margin-top: -40px;
+}
+
+.icon-img-container
+{
+    z-index: 5;
+}
+
+.top-header-container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin: 0 400px;
+}
+
+.app-title
+{
+    color: aliceblue;
 }
