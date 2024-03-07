@@ -7,7 +7,7 @@
 задача - познакомится с передачей данных в компонент
 так же почитай о display: flex, grid и тд : https://chat.openai.com/share/ec9497c5-3fe1-4e8f-9043-7d668fc354ff
 
-const Modal: React.FC = ({title, body) => {
+const Modal: React.FC = ({title, body}) => {
   return (
     <div>
       <h2>{title}</h2>
