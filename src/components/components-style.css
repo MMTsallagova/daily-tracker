@@ -1,0 +1,36 @@
+.component-title-container
+{
+    background-color: #999999;
+    /*border: 0 solid black;*/
+    /*border-left: 5px solid white;*/
+    /*border-radius: 3px;*/
+    padding: 5px;
+    max-width: 200px; /* Максимальная ширина контейнера */
+    max-height: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.component-title-container span{
+    font-size: 16px;
+    color: aliceblue;
+    text-align: left;
+    padding-left: 10px;
+    align-items: center;
+}
+
+/*.component-title-container h2::before {
+    content: ""; /* Добавление содержимого псевдоэлементу */
+  /*  display: block; /* Обязательно для псевдоэлемента */
+   /* position: absolute; /* Позиционирование псевдоэлемента */
+   /* width: 10px; /* Ширина квадратика */
+   /* height: 30px; /* Высота квадратика */
+   /* background-color: #ffffff; /* Цвет квадратика */
+   /* left: 0; /* Расположение квадратика слева от текста */
+/*}*/
+
+.component-border {
+    background-color: white;
+    width: 5px;
+    height: 20px;
+}

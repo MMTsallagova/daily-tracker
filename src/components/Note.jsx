@@ -1,3 +1,26 @@
+import React from "react";
+
+import "./components-style.css"
+
+const Note: React.FC = ({title, body}) => {
+    return (
+        <div>
+            <div className="component-title-container">
+                <div className="component-border"/>
+                <span>
+                    {title}
+                </span>
+            </div>
+
+            <div>
+                {body}
+            </div>
+        </div>
+    )
+}
+
+export default Note
+
 /*
 На референсе есть компоненты с одинаковым оформлением: Ячейка с хедером
 Компоненты содержат разный контент
